@@ -31,9 +31,7 @@ class CashRegister
   def void_last_transaction
     self.total - self.transaction
   end
-binding.pry
+
   
   
 end
-
- CashRegister.new.add_item("tomato", 1.76)
